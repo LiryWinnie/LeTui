@@ -1,0 +1,21 @@
+.components-searchFilmItem{
+    /*background-color: aqua;*/
+    /*opacity: 0.6;*/
+    background-color: rgba(232,46,55,0.3);
+    width:800px;
+    margin-left: 200px;
+    margin-bottom: 40px;
+    overflow: hidden;/*解决浮动引起的·样式布局问题*/
+    /* display: block; */
+}
+.components-searchFilmItem .film-cover{
+    float:left;
+    margin-right: 30px;
+}
+.components-searchFilmItem .film-cover img{
+	width:90px;
+	height:130px;
+}
+.components-searchFilmItem .film-generalInfo{
+    float: left;
+}

@@ -1,0 +1,64 @@
+.register-page{
+    width: 1100px;
+    height: 585px;
+    margin: 0 auto;
+    text-align: center;
+}
+.register-page .register-logo img{
+    margin-top:40px;
+    transform: scale(0.8);
+}
+.register-page .user-name,.register-page .user-password{
+    margin-bottom: 40px;
+}
+.register-page .user-name .error,.register-page .user-password .error{
+    display: block;
+    color: rgb(221, 225, 230);
+    margin-left:-80px;
+    margin-bottom: -18px;
+}
+.register-page .user-name label,.register-page .user-password label{
+    padding-top:10px;
+    margin-right:30px;
+    font-size: 28px;
+    font-style: bold;
+    color: red;
+
+}
+.register-page .user-name .input,.register-page .user-password .input{
+    height: 35px;
+    width:380px;
+    border: 2px solid red;
+    border-radius: 7px;
+}
+.register-page .user-name .is-invalid,.register-page .user-password .is-invalid{
+    border:2px solid rgb(133, 138, 144);
+}
+.register-page .user-password .input-password{
+    margin-bottom:40px; 
+}
+.register-page .user-register{
+    padding-left: 60px;
+    margin-top:50px;
+}
+.register-page .user-register input[type="submit"]{
+    background-color: red;
+    width: 150px;
+    height: 50px;
+    color:white;
+    font-size: 25px;
+    border: 2px solid red;
+    border-radius: 8px;
+    margin-left: 30px;
+}
+.register-page .user-register input[type="submit"][disabled]{
+    opacity: 0.5;
+}
+
+.register-page .account-already{
+    margin-top:80px;
+    text-align: right;
+    padding-right: 80px;
+    color: slategray;
+    text-decoration: none;
+}

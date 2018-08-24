@@ -1,0 +1,92 @@
+.personalInfo-page{
+    width: 1100px;
+    height: 535px;
+    margin: 0 auto;
+}
+.personalInfo-page .left{
+    float:left;
+    margin-left:50px;
+    margin-right: 120px;
+    margin-top: 10px;
+    /*background-color: aqua;*/
+    text-align: center;
+}
+
+.personalInfo-page .left .personalInfo-icon-username .icon img{
+   width: 250px;
+   height: 250px;
+}
+.personalInfo-page .left .personalInfo-icon-username .username{
+    font-size: 40px;
+    font-weight: bold;
+    color: red;
+    margin-top:10px;
+
+}
+
+.personalInfo-page .right{
+    float: left;
+    margin-top:20px;
+    /* text-align: center; */
+    /* background-color: rgb(145, 74, 216); */
+}
+ .personalInfo-page .right .personalInfo-logo {
+     margin: 0 auto;
+ }
+ .personalInfo-page .right .personalInfo-age,
+ .personalInfo-page .right .personalInfo-gender,
+ .personalInfo-page .right .personalInfo-password{
+    margin-top:40px;
+    border-bottom: 1px solid  rgb(171, 168, 174);
+ }
+
+ .personalInfo-page .right .personalInfo-age .tag,
+ .personalInfo-page .right .personalInfo-gender .tag,
+ .personalInfo-page .right .personalInfo-password .tag{
+     color:red;
+     font-size:30px;
+     margin-right: 40px;
+ }
+ .personalInfo-page .right .personalInfo-age input[type="text"][readonly],
+ .personalInfo-page .right .personalInfo-password input[type="password"]{
+     border:none;
+     color: red;
+     font-size: 30px;
+     width:60px;
+     height:30px;
+ }
+ .personalInfo-page .right .personalInfo-age input[type="text"]{
+     border: 1px solid red;
+     color: red;
+     font-size: 30px;
+     width:60px;
+     height:30px;
+ }
+ .personalInfo-page .right .personalInfo-age img,
+ .personalInfo-page .right .personalInfo-password img{
+     float: right;
+ }
+
+ .personalInfo-page .right .personalInfo-gender label{
+     color:red;
+     font-size: 30px;
+     margin-right: 100px;
+ }
+ .personalInfo-page .right .personalInfo-gender label input[type="radio"]{
+    width: 20px;
+    height: 20px;
+    opacity: 1;
+ }
+ .personalInfo-page .right .personalInfo-btn{
+     text-align: center;
+ }
+ .personalInfo-page .right .personalInfo-btn input[type="submit"]{
+     margin-top: 50px;
+     width:120px;
+     height: 40px;
+     background-color:red;
+     border: 1px solid red;
+     border-radius: 8px;
+     color:white;
+     font-size:20px;
+ }

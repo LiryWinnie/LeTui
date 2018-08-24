@@ -1,0 +1,94 @@
+.components-header{
+    /* width: 100%; */
+    box-sizing: border-box;
+    margin:0 auto;
+    height: 80px;
+    background-color:black;
+    position: relative;
+    color: white;
+    width:1100px;
+    overflow: hidden;
+}
+.logo{
+    float: left;
+    margin-left: 20px;
+    color: red;
+    /* background: darkturquoise; */
+    font-size: 35px;
+    line-height: 80px;
+   text-decoration: none;
+}
+
+.search{
+    float: left;
+    margin-left:250px;
+    line-height: 80px;
+}
+.search input{
+    width: 300px;
+    height: 35px;
+    border:1px solid silver;
+    border-radius: 8px;
+}
+
+.search  button{
+    position: relative;
+    top: 25px;
+    float: right;
+    margin-left: 20px;
+    width:80px;
+    height: 36px;
+    border: 1px solid red;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: red;
+
+}
+.search  button:disabled{
+    background-color: rgb(228, 134, 134);
+    border: 1px solid rgb(228, 134, 134);
+}
+.user-icon{
+    float: right;
+    margin-top: 10px;
+    margin-right: 6%;
+    color:white;
+    /* font-size: 25px; */
+    /* line-height: 80px; */
+    /* background-color: skyblue; */
+
+}
+.user-icon img{
+    width: 64px;
+   height: 64px;
+    border-radius:80%;
+}
+.film-recom-button{
+    float: right;
+    margin-right: 15px;
+}
+.film-recom-button button{
+    position: relative;
+    top: 25px;
+    width:80px;
+    height: 36px;
+    border: 1px solid red;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: red;
+}
+.logout{
+    float:right;
+    color:red;
+    position: relative;
+    right:-210px;
+    top:30px;
+    font-size: 18px;
+}
+a:hover{
+    cursor: pointer;
+}

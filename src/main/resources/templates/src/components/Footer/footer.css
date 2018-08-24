@@ -1,0 +1,19 @@
+.components-footer{
+    /* position:fixed; */
+    bottom: 0px;
+    width: 1100px;
+    box-sizing: border-box;
+    margin:0 auto;
+    height: 70px;
+    background-color:red;
+    min-width: 1000px;
+}
+.copyright-info{
+   /* position: fixed; */
+   text-align: center;
+   bottom: 10px;
+   left:45%;
+   color: white;
+   font-size: 20px;
+
+}

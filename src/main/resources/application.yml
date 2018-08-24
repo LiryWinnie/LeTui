@@ -1,0 +1,24 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /movie
+  tomcat:
+    uri-encoding: UTF-8
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/movie?characterEncoding=utf-8
+    username: root
+    password: pwy4225054
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  http:
+    encoding:
+      force: true
+      charset: UTF-8
+      enabled: true
+      
+      
+      

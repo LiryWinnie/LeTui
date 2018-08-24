@@ -1,0 +1,65 @@
+.login-page{
+    width: 1100px;
+    height: 585px;
+    margin: 0 auto;
+    text-align: center;
+}
+.login-page .login-logo img{
+    transform: scale(0.8);
+}
+.login-page .user-name,.login-page .user-password{
+    margin-bottom: 40px;
+}
+.login-page .user-name .error,.login-page .user-password .error{
+    display: block;
+    /*color: rgb(221, 225, 230);*/
+    color: #a19797;
+    margin-left:-80px;
+    margin-bottom: -18px;
+}
+.login-page .user-name label,.login-page .user-password label{
+    padding-top:10px;
+    margin-right:30px;
+    font-size: 28px;
+    font-style: bold;
+    color: red;
+
+}
+.login-page .user-name .input,.login-page .user-password .input{
+    height: 35px;
+    width:380px;
+    border: 2px solid red;
+    border-radius: 7px;
+}
+.login-page .user-name .is-invalid,.login-page .user-password .is-invalid{
+    border:2px solid rgb(133, 138, 144);
+}
+.login-page .user-login{
+    margin-top:50px;
+    padding-left: 140px;
+}
+.login-page .user-login input[type="submit"]{
+    background-color: red;
+    width: 150px;
+    height: 50px;
+    color:white;
+    font-size: 25px;
+    border: 2px solid red;
+    border-radius: 8px;
+    margin-left: 30px;
+}
+.login-page .user-login input[type="submit"][disabled]{
+    opacity: 0.5;
+}
+.login-page .user-login span{
+    margin-left:30px;
+    color:rgba(199, 182, 182, 0.823);
+    font-size: 14px;
+}
+.login-page  .account-none{
+    margin-top:80px;
+    text-align: right;
+    padding-right: 80px;
+    color: slategray;
+    text-decoration: none;
+}

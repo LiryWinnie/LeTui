@@ -1,0 +1,98 @@
+.filmInfo-page{
+    width: 1100px;
+    height: 585px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.filmInfo-page .film-details {
+    width: 1100px;
+}
+.filmInfo-page .film-details .film-img{
+    float:left;
+}
+.filmInfo-page .film-details .film-img img{
+    width:250px;
+    height:366px;
+}
+.filmInfo-page .film-details .film-infos{
+    margin-left:40px;
+    /* background-color: rgb(255, 208, 0); */
+    line-height: 40px;
+    float:left;
+    width:450px;
+}
+.filmInfo-page .film-details .film-infos .tag{
+    color:rgb(137, 131, 131);
+}
+.filmInfo-page .film-details .film-score{
+    /* background-color: rgb(0, 255, 60); */
+    margin-left:50px;
+    float:left;
+} 
+.filmInfo-page .film-details .film-score .average{
+    /* display: none; */
+    /* visibility: hidden; */
+    height: 60px;
+}
+
+.filmInfo-page .film-details .film-score .average .tag,
+.filmInfo-page .film-details .film-score .my .tag{
+    line-height: 80px;
+    color:rgb(137, 131, 131);
+}
+.filmInfo-page .film-details .film-score .average .average-score,
+.filmInfo-page .film-details .film-score .my .my-score{
+    line-height: 80px;
+    color:red;
+    font-size: 30px;
+    font-style: italic;
+    margin-left: 20px;
+}
+.filmInfo-page .film-details .film-score .scoring{
+    /* background-color: rgb(38, 0, 255); */
+   
+}
+.filmInfo-page .film-details .film-score .scoring button{
+    /* margin-left:20px; */
+    margin-top:20px;
+    width: 200px;
+    height: 38px;
+    background-color: red;
+    border:1px solid red;
+    border-radius: 8px;
+    color:white;
+    font-size: 18px;
+}
+.filmInfo-page .film-details .film-score .scoring-change{
+    /* background-color: aqua; */
+    background-color: beige;
+    margin-top:30px;
+   margin-left: 15px;
+
+}
+.filmInfo-page .film-details .film-score .scoring-change .tag{
+    color:red;
+    line-height: 30px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    
+}
+.filmInfo-page .film-details .film-score .scoring-change .score-input input[type="number"]{
+    width: 150px;
+    height: 25px;
+    border: 1px solid red;
+    border-radius: 8px;
+    margin-left: 40px;
+}
+.filmInfo-page .film-details .film-score .scoring-change .score-sub input[type="submit"]{
+    width: 60px;
+    height: 30px;
+    background-color: red;
+    border:1px solid red;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    margin-left: 85px;
+    margin-top:15px;
+    margin-bottom: 15px;
+}

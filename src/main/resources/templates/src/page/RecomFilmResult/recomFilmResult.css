@@ -1,0 +1,8 @@
+.recomFilmResult-page{
+    width: 1100px;
+    /* height: 585px; */
+    margin:0 auto;
+}
+.recomFilmResult-page .recomFilmResult-title{
+    margin-left:230px;
+}

@@ -1,0 +1,33 @@
+{
+  "name": "letui",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "classnames": "^2.2.5",
+    "jwt-decode": "^2.2.0",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4",
+    "redux": "^4.0.0",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "history": "^4.7.2",
+    "lodash": "^4.17.10",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-router": "^4.2.0",
+    "validator": "^10.3.0"
+  },
+  "proxy": "http://localhost:8082"
+}
